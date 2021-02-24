@@ -11,5 +11,11 @@ notes.splice(1, 1, 'This is the second new item')
 
 notes[2] = 'This is the new third item'
 
+
+notes.forEach(function(item, index){
+    console.log(index)
+    console.log(item)
+})
+
 console.log(notes.length);
 console.log(notes)
