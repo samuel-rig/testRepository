@@ -7,5 +7,6 @@ toDo.shift()
 console.log(`You have ${toDo.length} to do!`)
 
 toDo.forEach(function(todo, index){
-    console.log(`${index + 1}. ${todo}`)
+    const num = index + 1;
+    console.log(`${num}. ${todo}`)
 })
