@@ -1,0 +1,1 @@
+(()=>{console.log("Regina");const o=new class{myMethod(){return"Testing"}};console.log(o.myMethod())})();
